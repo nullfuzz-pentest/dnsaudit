@@ -81,7 +81,7 @@ func main() {
 	flag.Parse()
 	    // Print tool banner
 	log.SetFlags(0)
-    log.Print(`
+/*    log.Print(`
 
 
        __                           ___ __ 
@@ -93,6 +93,7 @@ func main() {
 
  
 `)
+*/
 
 	if *domainPtr == "" {
 		fmt.Println("Please provide a domain using the -domain flag.")
